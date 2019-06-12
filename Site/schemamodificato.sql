@@ -1,3 +1,5 @@
+/* I modified the DB given by the teacher because there was something wrong */
+
 CREATE TABLE `account` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `activation_date` date NOT NULL,
