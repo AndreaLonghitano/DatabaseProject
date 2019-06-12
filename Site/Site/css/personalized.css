@@ -1,0 +1,88 @@
+.titlecenter{
+    position:relative;
+    margin-left:40%;
+}
+
+
+        
+.icon:hover{
+    cursor:pointer;
+    color:orange;
+}
+    
+    
+#map {
+  height: 100%;
+}
+ 
+
+#infowindow-content {
+   display: none;     
+}
+
+ #map #infowindow-content {
+     display: inline;
+}
+
+    
+        
+.checkbox {
+  position: relative;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border: 1px solid;
+  cursor: pointer;
+}
+    
+.checkbox:hover{
+        cursor: pointer;
+        opacity: 0.7;
+    }
+.checkbox:after {
+  position: absolute;
+  width: 100%;
+  line-height: 100%;
+  text-align: center;
+}
+.checkbox[data-selected="true"]:after {
+  content: "✓";
+  color:white;
+  font-family: fantasy;
+}
+    
+
+
+.personalized{
+          background-image: url('card.jpg');
+          color:white;
+          position:relative;
+          width:100%;
+}
+    
+#rateYo{
+    float:left;    
+}
+
+.usefulstar{
+        position: relative;
+        float:left;
+}
+    
+.profileimage{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.centre{
+    position:relative; 
+    margin-left:50%;
+}
+
+
