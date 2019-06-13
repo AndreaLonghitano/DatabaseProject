@@ -8,4 +8,5 @@ In the development, it was used:
 - Ajax
 - Bootstrap
 - PHP
+- CSS
 
